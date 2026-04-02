@@ -29,7 +29,7 @@ body {
    ========================================== */
 
 .gradient-navbar {
-    background: linear-gradient(90deg, rgba(143, 0, 255, 0.95) 0%, rgba(154, 39, 176, 0.95) 50%, rgba(255, 20, 147, 0.95) 100%);
+    background: linear-gradient(135deg, rgba(143, 0, 255, 0.95) 0%, rgba(154, 39, 176, 0.95) 50%, rgba(255, 20, 147, 0.95) 100%);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
 }
@@ -211,6 +211,14 @@ body {
     animation: fadeInDown 0.8s ease-out;
 }
 
+.gradient-bg .section-title {
+    background: none;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    background-clip: unset;
+    color: #fff;
+}
+
 /* ==========================================
    Acts Section
    ========================================== */
@@ -261,6 +269,18 @@ body {
 .act-card .card-text {
     font-size: 0.95rem;
     line-height: 1.6;
+}
+
+.act-card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    height: 100%;
+}
+
+.act-card-link:hover {
+    text-decoration: none;
 }
 
 /* ==========================================
